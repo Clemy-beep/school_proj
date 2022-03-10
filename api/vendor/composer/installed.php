@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'd25111aed5a6da289008465461f3c5aa2c260239',
+        'reference' => '5c3bd41dd5ea484b2e2db6ac2feacb6a80266717',
         'name' => '__root__',
         'dev' => true,
     ),
@@ -16,7 +16,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'd25111aed5a6da289008465461f3c5aa2c260239',
+            'reference' => '5c3bd41dd5ea484b2e2db6ac2feacb6a80266717',
             'dev_requirement' => false,
         ),
         'api-platform/core' => array(
@@ -188,6 +188,15 @@
             'install_path' => __DIR__ . '/../doctrine/sql-formatter',
             'aliases' => array(),
             'reference' => '20c39c2de286a9d3262cc8ed282a4ae60e265894',
+            'dev_requirement' => false,
+        ),
+        'easycorp/easyadmin-bundle' => array(
+            'pretty_version' => 'v4.0.9',
+            'version' => '4.0.9.0',
+            'type' => 'symfony-bundle',
+            'install_path' => __DIR__ . '/../easycorp/easyadmin-bundle',
+            'aliases' => array(),
+            'reference' => 'a582d4590499eab9832cb684c5da61882c92aa73',
             'dev_requirement' => false,
         ),
         'fig/link-util' => array(
@@ -821,6 +830,15 @@
             'reference' => 'dd7dafe3bfebf8441e167b76d8a18974585467f3',
             'dev_requirement' => false,
         ),
+        'symfony/form' => array(
+            'pretty_version' => 'v6.0.5',
+            'version' => '6.0.5.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/form',
+            'aliases' => array(),
+            'reference' => '2465793d4ad8e40752a45997193d392eb1fc3384',
+            'dev_requirement' => false,
+        ),
         'symfony/framework-bundle' => array(
             'pretty_version' => 'v6.0.6',
             'version' => '6.0.6.0',
@@ -848,6 +866,15 @@
             'reference' => 'f9e49ad9fe16895b24cd7a09dc28d3364282e21a',
             'dev_requirement' => false,
         ),
+        'symfony/intl' => array(
+            'pretty_version' => 'v6.0.5',
+            'version' => '6.0.5.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/intl',
+            'aliases' => array(),
+            'reference' => 'aa9dd5a6b4b75a4b3dcd002ae588f9792f33defe',
+            'dev_requirement' => false,
+        ),
         'symfony/maker-bundle' => array(
             'pretty_version' => 'v1.38.0',
             'version' => '1.38.0.0',
@@ -856,6 +883,15 @@
             'aliases' => array(),
             'reference' => '143024ab0e426285d3d9b7f6a3ce51e12a9d8ec5',
             'dev_requirement' => true,
+        ),
+        'symfony/options-resolver' => array(
+            'pretty_version' => 'v6.0.3',
+            'version' => '6.0.3.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/options-resolver',
+            'aliases' => array(),
+            'reference' => '51f7006670febe4cbcbae177cbffe93ff833250d',
+            'dev_requirement' => false,
         ),
         'symfony/password-hasher' => array(
             'pretty_version' => 'v6.0.3',
@@ -894,6 +930,15 @@
             'install_path' => __DIR__ . '/../symfony/polyfill-intl-grapheme',
             'aliases' => array(),
             'reference' => '81b86b50cf841a64252b439e738e97f4a34e2783',
+            'dev_requirement' => false,
+        ),
+        'symfony/polyfill-intl-icu' => array(
+            'pretty_version' => 'v1.25.0',
+            'version' => '1.25.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/polyfill-intl-icu',
+            'aliases' => array(),
+            'reference' => 'c023a439b8551e320cc3c8433b198e408a623af1',
             'dev_requirement' => false,
         ),
         'symfony/polyfill-intl-normalizer' => array(
@@ -954,6 +999,15 @@
             'install_path' => __DIR__ . '/../symfony/polyfill-php81',
             'aliases' => array(),
             'reference' => '5de4ba2d41b15f9bd0e19b2ab9674135813ec98f',
+            'dev_requirement' => false,
+        ),
+        'symfony/polyfill-uuid' => array(
+            'pretty_version' => 'v1.25.0',
+            'version' => '1.25.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/polyfill-uuid',
+            'aliases' => array(),
+            'reference' => '7529922412d23ac44413d0f308861d50cf68d3ee',
             'dev_requirement' => false,
         ),
         'symfony/property-access' => array(
@@ -1079,6 +1133,15 @@
             'reference' => '522144f0c4c004c80d56fa47e40e17028e2eefc2',
             'dev_requirement' => false,
         ),
+        'symfony/translation' => array(
+            'pretty_version' => 'v6.0.6',
+            'version' => '6.0.6.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/translation',
+            'aliases' => array(),
+            'reference' => 'f6639cb9b5e0c57fe31e3263b900a77eedb0c908',
+            'dev_requirement' => false,
+        ),
         'symfony/translation-contracts' => array(
             'pretty_version' => 'v3.0.0',
             'version' => '3.0.0.0',
@@ -1087,6 +1150,12 @@
             'aliases' => array(),
             'reference' => '1b6ea5a7442af5a12dba3dbd6d71034b5b234e77',
             'dev_requirement' => false,
+        ),
+        'symfony/translation-implementation' => array(
+            'dev_requirement' => false,
+            'provided' => array(
+                0 => '2.3|3.0',
+            ),
         ),
         'symfony/twig-bridge' => array(
             'pretty_version' => 'v6.0.5',
@@ -1104,6 +1173,15 @@
             'install_path' => __DIR__ . '/../symfony/twig-bundle',
             'aliases' => array(),
             'reference' => 'bee311f9b10c05262536ff954fe7a1c3f7e8d497',
+            'dev_requirement' => false,
+        ),
+        'symfony/uid' => array(
+            'pretty_version' => 'v6.0.3',
+            'version' => '6.0.3.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/uid',
+            'aliases' => array(),
+            'reference' => 'bc1f80c2f512430b9b322df2b71983742dd4f8e7',
             'dev_requirement' => false,
         ),
         'symfony/validator' => array(

@@ -9,6 +9,7 @@ use App\Entity\Driver;
 use App\Entity\Guardian;
 use App\Entity\Route;
 use App\Entity\Seat;
+use App\Entity\User;
 use App\Entity\Wheel;
 use App\Entity\Window;
 use DateTime;
@@ -98,9 +99,8 @@ class AppFixtures extends Fixture
         $manager->persist($driver);
         // $product = new Product();
         // $manager->persist($product);
-        $admin = new Driver();
+        $admin = new User();
         $admin->setRoles(['ROLE_USER', 'ROLE_ADMIN'])->setEmail('admin@example.com')->setPassword($driverpwd)->setFirstname('Clementine')->setLastname('Digny')->setAge(27)->setGender(1);
-        $admin->setDrivingLicence($faker->ean8);
         $manager->persist($admin);
 
         $route = new Route();

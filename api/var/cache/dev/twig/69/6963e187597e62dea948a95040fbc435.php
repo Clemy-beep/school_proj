@@ -385,6 +385,6 @@ class __TwigTemplate_20e69c91a3fe9977a45357dfc3a4df60 extends Template
 
 </body>
 </html>
-", "@ApiPlatform/SwaggerUi/index.html.twig", "/home/stagiaire8/Documents/schoolbus_project/api/vendor/api-platform/core/src/Bridge/Symfony/Bundle/Resources/views/SwaggerUi/index.html.twig");
+", "@ApiPlatform/SwaggerUi/index.html.twig", "/home/stagiaire8/Documents/school_proj/api/vendor/api-platform/core/src/Bridge/Symfony/Bundle/Resources/views/SwaggerUi/index.html.twig");
     }
 }
